@@ -10,7 +10,7 @@ const Header = () => {
             <Navbar></Navbar>
             <div className="container">
                 <div className="row">
-                    <div className="col-12 col-md-6 d-flex justify-content-center align-items-center my-4">
+                    <div className="col-12 col-md-6 d-flex justify-content-center align-items-center my-4 my-md-0">
                         <div className="intro">
                             <h1 className="primaryColor headerName">Nk Rafi</h1>
                             <p className="text-secondary">Web Developer | Programmer | UI/UX Designer </p>
@@ -18,7 +18,7 @@ const Header = () => {
                             <Link to="/contact"><button className="btn primaryBg">Contact Me</button></Link>
                         </div>
                     </div>
-                    <div className="col-12 col-md-6 d-flex justify-content-center align-items-center my-4">
+                    <div className="col-12 col-md-6 d-flex justify-content-center align-items-center my-4 my-md-0">
                         <img src={myPicture} alt="" className="img-fluid p-3 p-md-5" />
                     </div>
                 </div>
