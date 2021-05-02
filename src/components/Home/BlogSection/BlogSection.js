@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import mernStack from '../../../images/mern-stack.png';
 import problemSolving from '../../../images/problem-solving.jpg';
 import uiUx from '../../../images/ui-ux.png';
@@ -54,7 +55,9 @@ const BlogSection = () => {
                 }
             </div>
             <div className="text-center my-5">
-                <button className="btn primaryBg px-5">More Blogs</button>
+                <Link to="/blogs">
+                    <button className="btn primaryBg px-5">More Blogs</button>
+                </Link>
             </div>
         </div>
     );
