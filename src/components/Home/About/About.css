@@ -1,0 +1,17 @@
+.skills > button{
+    padding: 10px;
+    background-color: #282625;
+    color: white;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.skills > button:hover{
+    padding: 10px;
+    background-color: #ff5722;
+    color: white;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+}

@@ -1,0 +1,150 @@
+[
+    {
+        "id": 1,
+        "description": [
+            "Showcase work portfolio",
+            "Taking bookings with benefits of online payment methods",
+            "Manage services and clients bookings",
+            "Interactive dashboard for both admin and client",
+            "Secure user authentication"
+        ],
+        "technologies": [
+            "react.js",
+            "react-router",
+            "node.js",
+            "express.js",
+            "mongoDB",
+            "firebase",
+            "heroku",
+            "bootstrap",
+            "strip.js"
+        ],
+        "name": "Exposure",
+        "title": "a website for photographers",
+        "thumbnail": "https://i.ibb.co/F85Fk45/exposure-thumbnail.jpg",
+        "github": "https://github.com",
+        "liveWebsite": "https://exposure-nk.firebaseapp.com"
+    },
+    {
+        "id": 2,
+        "description": [
+            "Display books in home page",
+            "Selling books with benefits of online payment methods",
+            "Interactive dashboard for authors to manage books",
+            "Checkout your orders as a customer.",
+            "Secure user authentication"
+        ],
+        "technologies": [
+            "react.js",
+            "react-router",
+            "node.js",
+            "express.js",
+            "mongoDB",
+            "firebase",
+            "heroku",
+            "bootstrap",
+            "strip.js"
+        ],
+        "name": "Book Guru",
+        "title": "a website for selling books",
+        "thumbnail": "https://i.ibb.co/D1LhpjT/book-guru-thumbnail.jpg",
+        "github": "https://github.com",
+        "liveWebsite": "https://book-guru-nk.firebaseapp.com"
+    },
+    {
+        "id": 3,
+        "description": [
+            "Landing page for showing vehicle types",
+            "User friendly UI",
+            "Benefits of booking ticket in different date",
+            "Different types of login options",
+            "Map for showing locations"
+        ],
+        "technologies": [
+            "react.js",
+            "react-router",
+            "node.js",
+            "express.js",
+            "mongoDB",
+            "firebase",
+            "netlify",
+            "mapbox",
+            "bootstrap"
+        ],
+        "name": "Orbit Rider",
+        "title": "a website for a ride sharing and ticket booking",
+        "thumbnail": "https://i.ibb.co/61w3T13/orbit-rider-thumbnail.jpg",
+        "github": "https://github.com",
+        "liveWebsite": "https://romantic-aryabhata-4aaebb.netlify.app"
+    },
+    {
+        "id": 4,
+        "description": [
+            "Home page for display products",
+            "Add to cart functionality for user",
+            "Order checkout option with remove product from cart",
+            "Online payment methods available",
+            "Manage products as an admin"
+        ],
+        "technologies": [
+            "react.js",
+            "react-router",
+            "node.js",
+            "express.js",
+            "mongoDB",
+            "firebase",
+            "heroku",
+            "bootstrap",
+            "strip.js"
+        ],
+        "name": "Ema John",
+        "title": "a e-commerce website for selling products online",
+        "thumbnail": "https://i.ibb.co/Jkj8bt7/ema-john-thumbnail.jpg",
+        "github": "https://github.com",
+        "liveWebsite": "https://ema-john-simple-nk.firebaseapp.com"
+    },
+    {
+        "id": 5,
+        "description": [
+            "Landing page for displaying teams",
+            "Interactive UI",
+            "Card for selecting team for view details",
+            "Route for showing details for selected team",
+            "Social media links of teams to explore"
+        ],
+        "technologies": [
+            "react.js",
+            "react-router",
+            "REST API",
+            "netlify",
+            "bootstrap"
+        ],
+        "name": "Sport Vision",
+        "title": "a website of details about teams in the Premier League",
+        "thumbnail": "https://i.ibb.co/SN7zxW2/sport-vision-thumbnail.jpg",
+        "github": "https://github.com",
+        "liveWebsite": "https://determined-jackson-e41982.netlify.app"
+    },
+    {
+        "id": 6,
+        "description": [
+            "Show watch in the landing page",
+            "User friendly UI for customer interaction",
+            "Get leads from visitor via contact form",
+            "Different section for watches",
+            "Navigation bar for easy navigation"
+        ],
+        "technologies": [
+            "HTML5",
+            "CSS",
+            "Bootstrap",
+            "git",
+            "github"
+        ],
+        "name": "Pioneer Watch",
+        "title": "a landing page for watch brand",
+        "thumbnail": "https://i.ibb.co/L6N0bXh/pioneer-watch-thumbnail.jpg",
+        "github": "https://github.com",
+        "liveWebsite": "https://nkrafi.github.io/pioneer-watch"
+    }
+]
