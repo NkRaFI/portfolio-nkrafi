@@ -1,6 +1,7 @@
 .header-container{
     /* clip-path: polygon(0 0, 100% 0, 100% 91%, 0% 100%); */
     clip-path: ellipse(150% 100% at 50% 0%);
+    min-height: 100vh;
 }
 .headerName{
     font-size: 60px;

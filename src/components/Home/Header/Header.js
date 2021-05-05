@@ -12,9 +12,9 @@ const Header = () => {
                 <div className="row">
                     <div className="col-12 col-md-6 d-flex justify-content-center align-items-center my-4 my-md-0">
                         <div className="intro">
-                            <h1 className="primaryColor headerName">Nk Rafi</h1>
+                            <h1 className="primaryColor headerName">NK RAFI</h1>
                             <p className="text-secondary">Web Developer | Programmer | UI/UX Designer </p>
-                            <p className="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse blanditiis nulla ut sapiente voluptate unde molestiae provident autem. Nobis, necessitatibus!</p>
+                            <p className="my-4">A dedicated web developer specialized in React.js and front-end development.</p>
                             <Link to="/contact"><button className="btn primaryBg">Contact Me</button></Link>
                         </div>
                     </div>
