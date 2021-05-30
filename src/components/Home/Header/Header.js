@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import myPicture from '../../../images/profile-picture-orange.png';
 import Navbar from '../../Navbar/Navbar';
 import './Header.css';
+import Typical from 'react-typical'
 
 const Header = () => {
     return (
@@ -13,7 +14,13 @@ const Header = () => {
                     <div className="col-12 col-md-6 d-flex justify-content-center align-items-center my-4 my-md-0">
                         <div className="intro">
                             <h1 className="primaryColor headerName">NK RAFI</h1>
-                            <p className="text-secondary">Web Developer | Programmer | UI/UX Designer </p>
+                            <Typical
+                                steps={['', 1000, 'Web Developer | Programmer | UI/UX Designer', 500]}
+                                loop={Infinity}
+                                wrapper="p"
+                                className="text-secondary"
+                            />
+                            {/* <p className="text-secondary">Web Developer | Programmer | UI/UX Designer </p> */}
                             <p className="my-4">A dedicated web developer specialized in React.js and front-end development.</p>
                             <Link to="/contact"><button className="btn primaryBg">Contact Me</button></Link>
                         </div>

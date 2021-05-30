@@ -1,10 +1,16 @@
-import React from 'react';
+import Aos from 'aos';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import mernStack from '../../../images/mern-stack.png';
 import problemSolving from '../../../images/problem-solving.jpg';
 import uiUx from '../../../images/ui-ux.png';
+import 'aos/dist/aos.css';
 
 const BlogSection = () => {
+    useEffect(()=>{
+        Aos.init({duration: 2000})
+    }, [])
+
     const blogs = [
         {
             id: 1,
@@ -37,7 +43,7 @@ const BlogSection = () => {
             <div className="row mx-auto">
                 {
                     blogs.map(blog =>
-                        <div key={blog.id} className="col-12 col-md-6 mb-4">
+                        <div key={blog.id} className="col-12 col-md-6 mb-4" data-aos="fade-left">
                             <div className="row gx-0">
                                 <div className="col-12 col-md-5">
                                     <img style={{ width: '100%', height: '100%' }} src={blog.img} alt="" />

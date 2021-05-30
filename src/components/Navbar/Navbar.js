@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark darkBg">
             <div className="container-fluid">
-                <Link className="navbar-brand" to="/">
+                <Link className="navbar-brand ms-2 ms-md-0" to="/">
                     <img style={{ width: '100px' }} src={logo} alt="" />
                 </Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,22 +17,22 @@ const Navbar = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav ms-auto">
-                        <li className="nav-item me-3 active">
+                        <li className="nav-item mx-2">
                             <Link className="nav-link text-white active" aria-current="page" to="/">Home</Link >
                         </li>
-                        <li className="nav-item me-3">
-                            <a className="nav-link text-white" href="#about">About</a >
+                        <li className="nav-item mx-2">
+                            <a className="nav-link text-white" href="/#about">About</a >
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item mx-2">
                             <Link className="nav-link text-white" to="/projects">Projects</Link >
                         </li>
-                        <li className="nav-item me-3">
+                        <li className="nav-item mx-2">
                             <Link className="nav-link text-white" to="/blogs">Blogs</Link >
                         </li>
-                        <li className="nav-item me-3">
+                        <li className="nav-item mx-2">
                             <Link className="nav-link text-white" to="/contact">Contact</Link >
                         </li>
-                        <li className="nav-item me-3">
+                        <li className="nav-item mx-2">
                             <a
                                 href="https://drive.google.com/file/d/1KAH4qtstvWhd2RoVQ-IBzGJsIqG60Fx9/view?usp=sharing"
                                 target="_blank" rel="noreferrer"

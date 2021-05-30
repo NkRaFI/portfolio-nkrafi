@@ -22,7 +22,7 @@
         "name": "Exposure",
         "title": "a website for photographers",
         "thumbnail": "https://i.ibb.co/F85Fk45/exposure-thumbnail.jpg",
-        "github": "https://github.com",
+        "github": "https://github.com/NkRaFI/exposure-client",
         "liveWebsite": "https://exposure-nk.firebaseapp.com"
     },
     {
@@ -48,7 +48,7 @@
         "name": "Book Guru",
         "title": "a website for selling books",
         "thumbnail": "https://i.ibb.co/D1LhpjT/book-guru-thumbnail.jpg",
-        "github": "https://github.com",
+        "github": "https://github.com/NkRaFI/book-guru-client",
         "liveWebsite": "https://book-guru-nk.firebaseapp.com"
     },
     {
@@ -74,7 +74,7 @@
         "name": "Orbit Rider",
         "title": "a website for a ride sharing and ticket booking",
         "thumbnail": "https://i.ibb.co/61w3T13/orbit-rider-thumbnail.jpg",
-        "github": "https://github.com",
+        "github": "https://github.com/NkRaFI/orbit-rider",
         "liveWebsite": "https://romantic-aryabhata-4aaebb.netlify.app"
     },
     {
@@ -100,7 +100,7 @@
         "name": "Ema John",
         "title": "a e-commerce website for selling products online",
         "thumbnail": "https://i.ibb.co/Jkj8bt7/ema-john-thumbnail.jpg",
-        "github": "https://github.com",
+        "github": "https://github.com/NkRaFI/ema-john-simple",
         "liveWebsite": "https://ema-john-simple-nk.firebaseapp.com"
     },
     {
@@ -122,7 +122,7 @@
         "name": "Sport Vision",
         "title": "a website of details about teams in the Premier League",
         "thumbnail": "https://i.ibb.co/SN7zxW2/sport-vision-thumbnail.jpg",
-        "github": "https://github.com",
+        "github": "https://github.com/NkRaFI/sport-vision",
         "liveWebsite": "https://determined-jackson-e41982.netlify.app"
     },
     {
@@ -144,7 +144,7 @@
         "name": "Pioneer Watch",
         "title": "a landing page for watch brand",
         "thumbnail": "https://i.ibb.co/L6N0bXh/pioneer-watch-thumbnail.jpg",
-        "github": "https://github.com",
+        "github": "https://github.com/NkRaFI/pioneer-watch",
         "liveWebsite": "https://nkrafi.github.io/pioneer-watch"
     }
 ]

@@ -1,11 +1,18 @@
-import React from 'react';
+import Aos from 'aos';
+import React, { useEffect } from 'react';
 import githubIcon from '../../../images/github-icon.png';
 import linkIcon from '../../../images/link-icon.png';
+import 'aos/dist/aos.css';
 
 const ProjectCard = ({ project }) => {
+
+    useEffect(()=>{
+        Aos.init({duration: 2000})
+    }, [])
+
     const { description } = project;
     return (
-        <div className="col-12 col-md-4 p-3">
+        <div className="col-12 col-md-4 p-3" data-aos="fade-up">
             <div className="text-center">
                 <img style={{ height: '200px', width: '100%' }} src={project.thumbnail} alt="" />
                 <div className="darkBg py-3 px-3">

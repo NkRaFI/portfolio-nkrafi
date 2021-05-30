@@ -1,9 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import emailjs from 'emailjs-com';
 import './Contact.css';
 import Navbar from '../Navbar/Navbar';
+import github from '../../images/github-icon.png';
+import facebook from '../../images/facebook-icon.png';
+import linkedIn from '../../images/linkedin-icon.png';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Contact = () => {
+
+    useEffect(()=>{
+        Aos.init({duration: 2000})
+    }, [])
+
     function sendEmail(e) {
         e.preventDefault();
 
@@ -22,8 +32,19 @@ const Contact = () => {
             <Navbar></Navbar>
             <div className="row d-flex justify-content-center my-5 p-3">
                 <h2 className="text-center mb-4">Contact Me</h2>
+                <div className="d-flex justify-content-center my-3" data-aos="fade-right">
+                    <a href="https://github.com/NkRaFI" className="nav-item" target="_blank" rel="noreferrer">
+                        <img style={{ width: '25px', margin: '15px' }} src={github} alt="" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/nk-rafi/" className="nav-item" target="_blank" rel="noreferrer">
+                        <img style={{ width: '25px', margin: '15px' }} src={linkedIn} alt="" />
+                    </a>
+                    <a href="https://www.facebook.com/nasorullah.khan.5" className="nav-item" target="_blank" rel="noreferrer">
+                        <img style={{ width: '25px', margin: '15px' }} src={facebook} alt="" />
+                    </a>
+                </div>
                 <div className="col-12 col-md-4">
-                    <form className="contact-form darkBg p-4 rounded" onSubmit={sendEmail}>
+                    <form className="contact-form darkBg p-4 rounded" onSubmit={sendEmail} data-aos="fade-up">
                         <label>Name</label>
                         <input className="form-control mb-3" type="text" name="user_name" required />
                         <label>Email</label>

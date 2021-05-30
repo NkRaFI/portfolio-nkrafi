@@ -1,14 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import github from '../../../images/github-icon.png';
 import facebook from '../../../images/facebook-icon.png';
 import linkedIn from '../../../images/linkedin-icon.png';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const ContactSection = () => {
+
+    useEffect(()=>{
+        Aos.init({duration: 2000})
+    }, [])
+
     return (
         <div className="text-center my-5 py-5">
             <h2 className="my-3">Get In Touch</h2>
-            <div className="d-flex justify-content-center">
+            <div className="d-flex justify-content-center" data-aos="slide-right">
                 <a href="https://github.com/NkRaFI" className="nav-item" target="_blank" rel="noreferrer">
                     <img style={{ width: '25px', margin: '15px' }} src={github} alt="" />
                 </a>
